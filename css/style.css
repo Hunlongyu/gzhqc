@@ -6,10 +6,10 @@
 	list-style: none;
 	text-decoration: none;
 }
-a:link {color: #333333} /* 未访问的链接 */
-a:visited {color: #333333} /* 已访问的链接 */
-a:hover {color: #333333} /* 鼠标移动到链接上 */
-a:active {color: #333333} /* 选定的链接 */
+a:link {color: #333333}
+a:visited {color: #333333} 
+a:hover {color: #333333} 
+a:active {color: #333333}
 
 .wrapper{
 	width: 1200px;
