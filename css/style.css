@@ -1,0 +1,120 @@
+/*home page style.css*/
+/*Designer: Hun Longyu*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+a:link {color: #333333} /* 未访问的链接 */
+a:visited {color: #333333} /* 已访问的链接 */
+a:hover {color: #333333} /* 鼠标移动到链接上 */
+a:active {color: #333333} /* 选定的链接 */
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+#nav a:link{color: #FFFFFF}
+#nav a:visited{color: #FFFFFF}
+#nav a:hover{color: #FFFFFF}
+#nav a:active{color: #FFFFFF}
+#nav li{
+	float: left;
+	width: 120px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #3ca0dc;
+	transition:background-color 1s;
+}
+#nav li:hover{
+	background-color: #696969;
+}
+#li1{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#li10{
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#news{
+	width: 740px;
+	height: 210px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#news h3{
+	color: #333;
+	font-size: 20px;
+}
+#news ul{
+	margin-left: 10px;
+}
+#news li{
+	border-bottom: 1px solid #ccc;
+}
+#news a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+}
+#news a:hover {color: #FF0000;} 
+#news span{
+	font-size: 12px;
+	float: right;
+	margin-top: 6px;
+}
+
+#notice{
+	position: relative;
+	margin-left: 780px;
+	margin-top: -450px;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+	font-size: 14px;
+}
+#notice marquee{
+	padding: 20px;
+}
+#notice h3{
+	color: #333333;
+	font-size: 20px;
+}
+
+#link{
+	width: 420px;
+	height: 160px;
+	position: relative;
+	margin-left: 780px;
+	margin-top: 10px;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+}
+#link h3{
+	font-size: 20px;
+}
+#link ul{
+	float: left;
+	font-size: 14px;
+	margin-left: 50px;
+}
+
+#copyright{
+	width: 1200px;
+	height: 20px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	bottom: 0px;
+	
+}
+
+
+
+
+
