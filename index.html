@@ -17,6 +17,7 @@
 			</div>
 			<div id="nav">
 				<ul>
+<<<<<<< HEAD
 					<li id="li1"><a href="#">首页</a></li>
 					<li><a href="page/jgsz.html">机构设置</a></li>
 					<li><a href="page/zcgl.html">资产管理</a></li>
@@ -26,6 +27,17 @@
 					<li><a href="page/gzzn.html">工作指南</a></li>
 					<li><a href="page/gzzd.html">规章制度</a></li>
 					<li><a href="page/xzzx.html">下载中心</a></li>
+=======
+					<li id="li1"><a href="http://www.ahstu.edu.cn/hqglc/Index.shtml">首页</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1378.shtml">机构设置</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1382.shtml">资产管理</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1381.shtml">房产管理</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1379.shtml">维修服务</a></li>
+					<li><a href="http://www.ahstu.edu.cn/zbxx/Index.html">招标信息</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1384.shtml">工作指南</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1383.shtml">规章制度</a></li>
+					<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1385.shtml">下载中心</a></li>
+>>>>>>> origin/master
 					<li id="li10"><a href="http://zcgl.ahstu.edu.cn/">资产管理系统</a></li>
 				</ul>
 			</div>
@@ -70,7 +82,7 @@
 			<div id="news">
 				<h3>新闻资讯</h3>
 				<hr />
-				<ul>
+				<!--<ul>
 					<li><a href="#">这是新闻标题一</a><span>2015/11/19</span></li>
 					<li><a href="#">这是新闻标题二</a><span>2015/11/19</span></li>
 					<li><a href="#">这是新闻标题三</a><span>2015/11/19</span></li>
@@ -78,13 +90,21 @@
 					<li><a href="#">这是新闻标题五</a><span>2015/11/19</span></li>
 					<li><a href="#">这是新闻标题六</a><span>2015/11/19</span></li>
 					<li><a href="#">这是新闻标题七</a><span>2015/11/19</span></li>
-				</ul>
+				</ul>-->
+				<!--文章列表-->
+				<div class="neirongye">
+					<!--所有文章中按时间早晚逆序排列-->
+					<span>                                                                       
+						{$GetArticleList(1062,arrChildID,True,0,True,0,False,False,"",0,3,2,60,0,False,6,False,False,1,False,False,False,False,False,true,0)} 
+					</span>
+				</div>
+				<!---->
 			</div>
 			<div id="notice">
 				<h3>通知公告</h3>
 				<hr />
 				<marquee onMouseOut="this.start()" onMouseOver="this.stop()" behavior="scroll" direction="up" height="240"width="420" loop="-1" scrollamount="2">
-					<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)
+					<!--<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)
 					<br />
 					<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)
 					<br />
@@ -92,7 +112,10 @@
 					<br />
 					<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)
 					<br />
-					<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)
+					<a href="http://www.ahstu.edu.cn/hqglc/HTML/20151019104823.shtml" target="_self">关于做好教学单位内设机构行政办公类固定资产手续变更的通知</a>&nbsp;(10-19)-->
+					<!--工作动态-->
+					{$GetArticleList(1062,1377,True,0,True,10,False,False,"",0,3,1,0,0,False,0,False,False,1,False,False,False,False,False,False,0)}
+					<!---->
 				</marquee>
 			</div>
 			<div id="link">
@@ -119,7 +142,7 @@
 			</div>
 			<div id="copyright">
 				<hr />
-				<p>版权所有：安徽科技学院国有资产与后勤管理处&nbsp;&nbsp;&nbsp;邮编号码：233100&nbsp;<a href="#">[登录管理]</a></p>
+				<p>版权所有：安徽科技学院国有资产与后勤管理处&nbsp;&nbsp;&nbsp;邮编号码：233100&nbsp;<a href="http://www1.ahstu.edu.cn/admin/Admin_Index.asp" target="_blank">[登录管理]</a></p>
 			</div>
 		</div>
 
