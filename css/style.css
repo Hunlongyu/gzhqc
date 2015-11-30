@@ -106,12 +106,10 @@ a:active {color: #333333}
 #copyright{
 	width: 1200px;
 	height: 20px;
-	margin-top: 20px;
 	text-align: center;
 	font-size: 14px;
-	position: relative;
+	position: absolute;
 	bottom: 0px;
-	
 }
 
 

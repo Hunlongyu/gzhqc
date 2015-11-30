@@ -1,0 +1,81 @@
+/*page style*/
+/*Designer: Hun Longyu*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+a:link {color: #333333}
+a:visited {color: #333333} 
+a:hover {color: #333333} 
+a:active {color: #333333}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav a:link{color: #FFFFFF;}
+.nav a:visited{color: #FFFFFF;}
+.nav a:hover{color: #FFFFFF;}
+.nav a:active{color: #FFFFFF;}
+.nav li{
+	float: left;
+	width: 120px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #3ca0dc;
+	transition:background-color 1s;
+}
+.nav li:hover{
+	background-color: #696969;
+}
+.li1{
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.li10{
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.article{
+	padding: 0 240px;
+}
+.article-list{
+	margin: 0 auto;
+}
+.article-list li{
+	
+}
+.article-list a{
+	font-size: 16px;
+}
+.article-list a:hover{color: #FF0000;}
+/*.article-list span{
+	font-size: 12px;
+	float: right;
+	margin-top: 6px;
+}*/
+.neirong{
+	display: block;
+	margin: o auto;
+	position: absolute;
+	bottom: 30px;
+}
+.copyright{
+	width: 1200px;
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+
+
+
+
