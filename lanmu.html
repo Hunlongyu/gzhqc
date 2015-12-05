@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="gb2312">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<link rel="shortcut icon" href="http://www.jtahstu.com/gzhqc/img/favicon.ico" /></link>
+		<title>国有资产与后勤管理处-安徽科技学院 Anhui Science and Technology University</title>
+
+		<!-- Bootstrap -->
+		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<style>
+			body {
+				background-image: url(http://www.jtahstu.com/gzhqc/img/bg_ge.png);
+			}
+			
+			.col-md-8 {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+
+					<!--logo-->
+					<img class="img-responsive" src="http://www.jtahstu.com/gzhqc/img/LOGO.png" />
+
+					<!--nav-->
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class=""><a href="http://www.ahstu.edu.cn/hqglc/Index.shtml">首页 <span class="sr-only">(current)</span></a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">机构设置 <span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="#">资产与后勤服务监管科</a></li>
+											<li><a href="#">房产管理科</a></li>
+										</ul>
+									</li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1382.shtml">资产管理</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1381.shtml">房产管理</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1379.shtml">服务承诺</a></li>
+									<li><a href="http://www.ahstu.edu.cn/zbxx/Index.html" target="_blank">招标信息</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1384.shtml">工作指南</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1383.shtml">规章制度</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1385.shtml">下载中心</a></li>
+									<li><a href="http://zcgl.ahstu.edu.cn/" target="_blank">资产管理系统</a></li>
+								</ul>
+
+							</div>
+							<!-- /.navbar-collapse -->
+						</div>
+						<!-- /.container-fluid -->
+					</nav>
+
+					<!--left-->
+					<div class="col-md-4"></div>
+					<div class="col-md-8">
+						<!--article-->
+						<h3>{$ClassName}文章列表</h3>
+						<div class="progress" style="height: 8px;">
+							<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							</div>
+						</div>
+						<!--文章列表-->
+						{$GetArticleList(1062,arrChildID,True,0,True,0,False,False,"",0,3,2,60,0,False,6,False,False,1,False,False,False,False,False,true,0)}
+						<!---->
+						<br />
+						<br />
+						<br /> {$ShowPage}
+
+					</div>
+					<br />
+					<!--foot-->
+					<div id="foot" style="text-align: center;" class="col-md-12">
+						<hr />
+						<p>版权所有：安徽科技学院国有资产与后勤管理处&nbsp;&nbsp;&nbsp;邮编号码：233100&nbsp;<a href="http://www1.ahstu.edu.cn/admin/Admin_Index.asp" target="_blank">[登录管理]</a></p>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
