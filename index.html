@@ -2,16 +2,15 @@
 <html lang="zh-CN">
 
 	<head>
-		<meta charset="gb2312">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<meta name="Description" content="安徽科技学院国有资产与后勤管理处网站" />
+		<meta name="Keywords" content="安科，安徽科技学院，国资后勤处，综合科，资产管理科，房产管理科，招标信息处" />
 		<link rel="shortcut icon" href="http://www.jtahstu.com/gzhqc/img/favicon.ico" /></link>
 		<title>国有资产与后勤管理处-安徽科技学院 Anhui Science and Technology University</title>
-
-		<!-- Bootstrap -->
 		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,59 +20,120 @@
     <![endif]-->
 		<style>
 			body {
-				background-image: url(http://www.jtahstu.com/gzhqc/img/bg_ge.png);
+				background-color: #D9E8F9;
+				font-family: 宋体;
 			}
 			
-			.col-md-8{
+			.col-md-10 {
 				background-color: #fff;
 			}
+			#nav{
+				margin: 0;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				border: 1px solid #eee;
+				box-shadow: 1px 1px #eee;
+				margin-bottom: 6px;
+			}
+			#nav li{
+				border-right: 1px solid #eee;
+			}
+			#nav a{
+				color: #777;
+				text-decoration: none;
+			}
+			#nav a:hover{
+				color: #333;
+			}
+			li {
+				list-style: none;
+			}
+			
+			a {
+				color: #000;
+			}
 		</style>
+
 	</head>
 
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
 					<!--logo-->
-					<img class="img-responsive" src="http://www.jtahstu.com/gzhqc/img/LOGO.png" />
+					<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120715471560.jpg" />
 
 					<!--nav-->
-					<nav class="navbar navbar-default">
-						<div class="container-fluid">
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav">
-									<li class=""><a href="http://www.ahstu.edu.cn/hqglc/Index.shtml">首页 <span class="sr-only">(current)</span></a></li>
+					<div class="row" id="nav">
+						<ul>
+							<li><a href="#" target="_blank" class="col-md-1">学校首页</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">本站首页</a></li>
+							<li class="dropdown col-md-1" style="padding-left: 5px;padding-right: 5px;">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">机构设置 <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151206114913.shtml" target="_blank">工作职能</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_2311.shtml" target="_blank">内设机构</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151207174733.shtml" target="_blank">工作人员</a></li>
+								</ul>
+							</li>
+							<li><a href="#" target="_blank" class="col-md-1">服务承诺</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">资产管理</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">房产管理</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">工作指南</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">规章制度</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">下载中心</a></li>
+							<li><a href="#" target="_blank" class="col-md-1">资产系统</a></li>
+							<li><a href="#" target="_blank" class="col-md-2" id="datetime" style="color: orangered;"></a></li>
+						</ul>
+					</div>
+					
+
+					<!--<nav class="navbar navbar-default">
+						<div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-right: 0px;padding-left: 0px;">
+								<ul class="nav navbar-nav hidden-md">
+									<li><a href="http://www.ahstu.edu.cn/" target="_blank">学校首页</a></li>
+									<li class=""><a href="http://www.ahstu.edu.cn/hqglc/Index.shtml">本站首页 <span class="sr-only">(current)</span></a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">机构设置 <span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="#">资产与后勤服务监管科</a></li>
-											<li><a href="#">房产管理科</a></li>
+											<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151206114913.shtml" target="_blank">工作职能</a></li>
+											<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_2311.shtml" target="_blank">内设机构</a></li>
+											<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151207174733.shtml" target="_blank">工作人员</a></li>
 										</ul>
 									</li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1382.shtml">资产管理</a></li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1381.shtml">房产管理</a></li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1379.shtml">服务承诺</a></li>
-									<li><a href="http://www.ahstu.edu.cn/zbxx/Index.html" target="_blank">招标信息</a></li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1384.shtml">工作指南</a></li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1383.shtml">规章制度</a></li>
-									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1385.shtml">下载中心</a></li>
-									<li><a href="http://zcgl.ahstu.edu.cn/">资产管理系统</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1379.shtml" target="_blank">服务承诺</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1382.shtml" target="_blank">资产管理</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1381.shtml" target="_blank">房产管理</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1384.shtml" target="_blank">工作指南</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1383.shtml" target="_blank">规章制度</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1385.shtml" target="_blank">下载中心</a></li>
+									<li><a href="http://zcgl.ahstu.edu.cn/" target="_blank">资产系统</a></li>
+									<li>
+										<a style="color: orangered;font-size: 12px;" href="#" id="datetime"></a>
+									</li>
 								</ul>
 							</div>
-							<!-- /.navbar-collapse -->
 						</div>
-						<!-- /.container-fluid -->
-					</nav>
+					</nav>-->
 
 					<!--left-->
 					<div class="col-md-7">
+						<!--新闻快讯-->
+						<img src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420702.png" />
+						<span style="float: right;padding-top: 10px;"><a href="http://www.ahstu.edu.cn/hqglc/List/List_2310.shtml" target="_blank">更多+</a></span>
+						<hr />
+						<span style="position:relative;">
+							<div style="al">
+								{$GetArticleList(1062,2310,True,0,True,4,False,False,"",0,3,1,60,0,False,0,False,False,1,False,False,False,False,False,False,1,1)}
+							</div>
 
-						<!--slideshow-->
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<!-- Indicators -->
+						</span>
+						<br />
+
+						<!--幻灯片-->
+						<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -81,53 +141,49 @@
 								<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 							</ol>
-
-							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img class="img-responsive" src="http://fakeimg.pl/800x400/" alt="...">
+									<img class="img-responsive" src="http://www1.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120715410108.jpg">
 									<div class="carousel-caption">
-										<a href="#">
-											<p>标题1</p>
+										<a href="#" target="_blank">
+											<p>校园风光1</p>
 										</a>
 									</div>
 								</div>
 								<div class="item">
-									<img class="img-responsive" src="http://fakeimg.pl/800x400/" alt="...">
+									<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420791.jpg">
 									<div class="carousel-caption">
 										<a href="#">
-											<p>标题2</p>
+											<p>校园风光2</p>
 										</a>
 									</div>
 								</div>
 								<div class="item">
-									<img class="img-responsive" src="http://fakeimg.pl/800x400/" alt="...">
+									<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420765.jpg">
 									<div class="carousel-caption">
 										<a href="#">
-											<p>标题3</p>
+											<p>校园风光3</p>
 										</a>
 									</div>
 								</div>
 								<div class="item">
-									<img class="img-responsive" src="http://fakeimg.pl/800x400/" alt="...">
+									<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420772.jpg">
 									<div class="carousel-caption">
 										<a href="#">
-											<p>标题4</p>
+											<p>校园风光4</p>
 										</a>
 									</div>
 								</div>
 								<div class="item">
-									<img class="img-responsive" src="http://fakeimg.pl/800x400/" alt="...">
+									<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710421784.jpg">
 									<div class="carousel-caption">
 										<a href="#">
-											<p>标题5</p>
+											<p>校园风光5</p>
 										</a>
 									</div>
 								</div>
 
 							</div>
-
-							<!-- Controls -->
 							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>
@@ -136,59 +192,107 @@
 								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 								<span class="sr-only">Next</span>
 							</a>
+						</div>-->
+						<div>
+							{$MY_食品学院动态图片(5,1062,600,400)}
 						</div>
-						<br />
 
-						<!--news-->
-						<img src="http://www.jtahstu.com/gzhqc/img/news.png" />
+						<!--友情链接-->
+						<img src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420762.png" />
 						<hr />
-						<span style="position:relative;top:10px;">   
-					{$GetArticleList(1062,arrChildID,True,0,True,6,False,False,"",0,3,2,60,0,False,6,False,False,3,False,False,False,False,False,true,0)}
-					</span>
+						<div id="aklink">
+							<ul style="float: left;">
+								<li><a href="http://www.ahstu.edu.cn/zbxx/Index.html" target="_blank">安科院招标信息网</a></li>
+								<li><a href="http://www.ahzfcg.gov.cn/" target="_blank">安徽省政府采购网</a></li>
+
+							</ul>
+							<ul style="float: left;">
+
+								<li><a href="http://www.ahstu.edu.cn/part/hao123/edu.htm" target="_blank">中国大学</a></li>
+								<li><a href="http://www.bbztb.cn/bbweb/default.aspx" target="_blank">蚌埠公共资源交易网</a></li>
+							</ul>
+						</div>
+
 					</div>
 
 					<!--right-->
 					<div class="col-md-5">
 
-						<!--notice-->
-						<img style="float: left;" src="http://www.jtahstu.com/gzhqc/img/notice.png" />
-						<br />
-						<span style="float: right;padding-top: 10px;"><a href="http://www.ahstu.edu.cn/hqglc/List/List_1377.shtml">>>MORE</a></span>
-						<marquee style="border-top:1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;" onMouseOut="this.start()" onMouseOver="this.stop()" behavior="scroll" direction="up" height="250" loop="-1" scrollamount="2">
-							{$GetArticleList(1062,1377,True,0,True,8,False,False,"",0,3,1,60,0,False,0,False,False,1,False,False,False,False,False,False,0)}
-						</marquee>
-						<br /><br />
+						<!--通知公告-->
+						<img src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420716.png" />
 
-						<!--link-->
-						<img src="http://www.jtahstu.com/gzhqc/img/link.png" />
+						<span style="float: right;padding-top: 10px;"><a href="http://www.ahstu.edu.cn/hqglc/List/List_1377.shtml" target="_blank">更多+</a></span>
 						<hr />
-						<div id="aklink">
-							<ul style="float: left;">
-								<li><a href="#">友情链接1</a></li>
-								<li><a href="#">友情链接2</a></li>
-							</ul>
-							<ul style="float: left;">
-								<li><a href="#">友情链接1</a></li>
-								<li><a href="#">友情链接2</a></li>
-							</ul>
-							<ul style="float: left;">
-								<li><a href="#">友情链接1</a></li>
-								<li><a href="#">友情链接2</a></li>
-							</ul>
-						</div>
+						<span style="position:relative;">
+							<div style="al">
+								{$GetArticleList(1062,1377,True,0,True,8,False,False,"",0,3,1,60,0,False,0,False,False,1,False,False,True,False,False,False,1,1)}
+								</div>
+								</span>
+						<!--<marquee style=" solid #e0e0e0;border-bottom: 1px solid #e0e0e0;" onMouseOut="this.start()" onMouseOver="this.stop()" behavior="scroll" direction="up" height="250" loop="-1" scrollamount="2" scrolldelay="50">
+							
+						</marquee>-->
+
+						<br />
+						<!--联系方式-->
+						<img src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120710420724.png" />
+						<hr />
+						<ul style="float: left;">
+							<li>
+								<p>综&nbsp;&nbsp;合&nbsp;&nbsp;科：0550-6719015</p>
+							</li>
+							<li>
+								<p>资产管理科：0550-6732060</p>
+							</li>
+							<li>
+								<p>房产管理科：0550-6733690</p>
+							</li>
+							<li>
+								<p>邮箱：gzhqc@ahstu.edu.cn</p>
+							</li>
+							<li>
+								<p>邮编：233100</p>
+							</li>
+							<li>
+								<p>地址：<span>凤阳县东华路9号安徽科技学院中办公楼一楼</span></p>
+							</li>
+						</ul>
+
 					</div>
 
-					<!--foot-->
+					<!--footer-->
 					<div class="col-md-12" style="text-align: center;">
 						<hr />
 						<p>版权所有：安徽科技学院国有资产与后勤管理处&nbsp;&nbsp;&nbsp;邮编号码：233100&nbsp;<a href="http://www1.ahstu.edu.cn/admin/Admin_Index.asp" target="_blank">[登录管理]</a></p>
 					</div>
 					<hr />
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-1"></div>
 			</div>
 
 		</div>
+		<!--js用于显示导航栏中的时间和日期-->
+		<script language="JavaScript">
+			//单个数字配零
+			function getDouble(number) {
+				var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+				for (var i = 0; i < numbers.length; i++) {
+					if (numbers[i] == number) {
+						return "0" + numbers[i];
+					} else if (i == 9) {
+						return number;
+					}
+				}
+			}
+			//得到当天时间
+			function getTodayTime() {
+				var days = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+				var today = new Date();
+				var str = (today.getYear() < 1900 ? 1900 + today.getYear() : today.getYear()) + "/" + getDouble([today.getMonth() + 1]) + "/" + getDouble(today.getDate()) + "&nbsp;" + days[today.getDay()];
+				document.getElementById('datetime').innerHTML = str;
+			}
+			//每隔一秒刷新一次
+			getTodayTime();
+		</script>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
