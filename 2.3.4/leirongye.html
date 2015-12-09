@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="gb2312">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<link rel="shortcut icon" href="http://www.jtahstu.com/gzhqc/img/favicon.ico" /></link>
+		<title>国有资产与后勤管理处-安徽科技学院 Anhui Science and Technology University</title>
+
+		<!-- Bootstrap -->
+		<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<style>
+			body {
+				background-color: #D9E8F9;
+				font-family: 宋体;
+			}
+			
+			.col-md-10 {
+				background-color: #fff;
+			}
+			#nav{
+				margin: 0;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				border: 1px solid #eee;
+				box-shadow: 1px 1px #eee;
+				margin-bottom: 6px;
+				padding-left: 0;
+				padding-right: 0;
+				background-color: #2190FF;
+			}
+			#nav li{
+				/*border-right: 1px solid #eee;*/
+			}
+			#nav a{
+				color: #FFF;
+				text-decoration: none;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			#nav a:hover{
+				color: #EEE;
+			}
+			li {
+				list-style: none;
+			}
+			a {
+				color: #000;
+			}
+			#contactp p{
+				margin: 0;
+				padding: 0;
+			}
+			#ula{
+				padding-left: 10px;
+			}
+			#ula a:hover{
+				background-color: #2190ff;
+			}
+		</style>
+</head>
+
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+
+					<!--logo-->
+					<img class="img-responsive" src="http://www.ahstu.edu.cn/hqglc/UploadFiles_8628/201512/2015120815545234.jpg" />
+
+					<!--nav-->
+					<div class="row" id="nav">
+						<ul>
+							<li><a href="http://www.ahstu.edu.cn/" target="_blank" class="col-md-1">学校首页</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/Index.shtml" target="_blank" class="col-md-1">本站首页</a></li>
+							<li class="dropdown col-md-1" style="padding-left: 0;padding-right: 0;">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">机构设置</a>
+								<ul class="dropdown-menu" style="background-color: #2190FF;" id="ula">
+									<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151206114913.shtml" target="_blank">工作职能</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_2311.shtml" target="_blank">内设机构</a></li>
+									<li><a href="http://www.ahstu.edu.cn/hqglc/HTML/20151207174733.shtml" target="_blank">工作人员</a></li>
+								</ul>
+							</li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1379.shtml" target="_blank" class="col-md-1">服务承诺</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1382.shtml" target="_blank" class="col-md-1">资产管理</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1381.shtml" target="_blank" class="col-md-1">房产管理</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1384.shtml" target="_blank" class="col-md-1">工作指南</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1383.shtml" target="_blank" class="col-md-1">规章制度</a></li>
+							<li><a href="http://www.ahstu.edu.cn/hqglc/List/List_1385.shtml" target="_blank" class="col-md-1">下载中心</a></li>
+							<li><a href="http://zcgl.ahstu.edu.cn/" target="_blank" class="col-md-1">资产系统</a></li>
+							<li>
+								<a href="#" target="_blank" class="col-md-2" id="datetime" style="font-size: 14px;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;"></a>
+							</li>
+						</ul>
+					</div>
+					<!--article-->
+					<!--文章标题-->
+					<h3 style="text-align: center;"><b>{$ArticleTitle}</b></h3>
+					<br />
+					<br />
+					<!--文章内容-->
+					{$ArticleContent}
+					<br />
+					<br />
+					<div align="right">
+						点击数：{$Hits} 更新时间：{$UpdateTime} 作者：{$Author} 文章来源：{$CopyFrom}
+					</div>
+					<br />
+					<br />
+					<!--上下篇文章-->
+					{$PrevArticle}
+					<br /> {$NextArticle}
+
+					<br />
+					<!--foot-->
+					<div id="foot" style="text-align: center;" class="col-md-12">
+						<hr />
+						<p>版权所有：安徽科技学院国有资产与后勤管理处&nbsp;&nbsp;&nbsp;邮编号码：233100&nbsp;<a href="http://www1.ahstu.edu.cn/admin/Admin_Index.asp" target="_blank">[登录管理]</a></p>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<script language="JavaScript">
+				//单个数字配零
+				function getDouble(number) {
+					var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+					for (var i = 0; i < numbers.length; i++) {
+						if (numbers[i] == number) {
+							return "0" + numbers[i];
+						} else if (i == 9) {
+							return number;
+						}
+					}
+				}
+				//得到当天时间
+				function getTodayTime() {
+					var days = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+					var today = new Date();
+					var str =(today.getYear() < 1900 ? 1900 + today.getYear() : today.getYear()) + "/" + getDouble([today.getMonth() + 1]) + "/" + getDouble(today.getDate()) +"&nbsp;"+ days[today.getDay()];
+					document.getElementById('datetime').innerHTML = str;
+				}
+				//每隔一秒刷新一次
+				setInterval("getTodayTime()", 10);
+			</script>
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
